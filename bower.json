@@ -1,0 +1,37 @@
+{
+  "name": "graphene-elements",
+  "version": "1.0.3",
+  "authors": [
+    "Marco Magnetti <marcomagnetti@gmail.com>"
+  ],
+  "description": "Graphene client elements for polymer",
+  "keywords": [
+    "graphene",
+    "elements",
+    "client"
+  ],
+  "main": "graphene-elements.html",
+  "license": "http://polymer.github.io/LICENSE.txt",
+  "homepage": "https://github.com/marcomag89/graphene-elements/",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0",
+    "graphene-client": "marcomag89/graphene-client",
+    "graphene-doc": "marcomag89/graphene-doc",
+    "graphene-collection": "marcomag89/graphene-collection",
+    "graphene-crud": "marcomag89/graphene-crud"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  },
+  "moduleType": []
+}
