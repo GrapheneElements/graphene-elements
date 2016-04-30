@@ -1,6 +1,6 @@
 {
   "name": "graphene-elements",
-  "version": "1.0.3",
+  "version": "0.1.1",
   "authors": [
     "Marco Magnetti <marcomagnetti@gmail.com>"
   ],
@@ -24,10 +24,10 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.1.0",
-    "graphene-client": "GrapheneElements/graphene-client",
-    "graphene-doc": "GrapheneElements/graphene-doc",
-    "graphene-collection": "GrapheneElements/graphene-collection",
-    "graphene-crud": "GrapheneElements/graphene-crud"
+    "graphene-client": "GrapheneElements/graphene-client#~0.1",
+    "graphene-doc": "GrapheneElements/graphene-doc#~0.1",
+    "graphene-collection": "GrapheneElements/graphene-collection#~0.1",
+    "graphene-crud": "GrapheneElements/graphene-crud#~0.1"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
